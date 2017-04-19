@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name= "Parameterization test suite">
+		<test name="Testing Parameterization ">
+		<parameter name="browser" value="Firefox"/>
+		<parameter name= "username" value="Vineet689"/>
+		<parameter name= "password" value="testing00123"/>
+		
+					<classes>
+					
+					<class name = "testNGParameter.TestParameters" />
+					
+					</classes>
+					</test>
+					
+					</suite>
